@@ -1,28 +1,28 @@
 //import logo from './logo.svg';
 //import './App.css';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
-import './components/About';
-import './components/Contact';
-import './components/HomeImage';
+import About from './components/About';
+import Contact from './components/Contact';
 import HomePicture from './components/HomeImage';
 
 
 function App() {
   return (
-    <>
-    <div>
-      <Header />
-    </div>
-    <div>
-      <HomePicture />
-    </div>
-    <div className="container">
-      <Home />
-    </div>
-
-    </>
+    <BrowserRouter>
+      <div>
+        <Header />
+      </div>
+      <div className="container">
+        <HomePicture />
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/About" exact element={<About />}/>
+          <Route path="/Contact" exact element={<Contact />}/>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
-
 export default App;
