@@ -1,5 +1,7 @@
+import Modal from "./Modal.js";
 import {useState} from "react";
-import Modal from "./Modal";
+import "./Modal.css";
+
 
 // const Contact = () => {
 //     return (
@@ -8,6 +10,10 @@ import Modal from "./Modal";
 //         </div>
 //     );
 // };
+
+function ContactModal() {
+    return <div className="container"> Modal Example</div>
+};
 
 function Contact() {
     const [status, setStatus] = useState(false);

@@ -1,5 +1,6 @@
 import { MdClose } from "react-icons/md";
 
+
 const Modal = ({ children, close }) => {
     return (
         <div className="Overlay">
