@@ -1,4 +1,7 @@
 import HomePicture from "./HomeImage";
+import "./Modal.css";
+import HomeButton from "./HomeButton";
+
 
 const Home = () => {
     return (
@@ -6,7 +9,7 @@ const Home = () => {
             <HomePicture />
             <h1>Matthew Carlyon - Trainee Front-End Developer</h1>
             <h2>Please navigate your way through my React.js page</h2>
-            <button>About Page</button>
+            <HomeButton />
         </div>
     );
 };

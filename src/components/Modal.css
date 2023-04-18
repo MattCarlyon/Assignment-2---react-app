@@ -14,7 +14,7 @@
   
   .content {
     margin: 15% auto;
-    background-color: rgb(196, 236, 18);
+    background-color:  #D8F2B8;
     border-radius: 0.25rem;
     width: 40vw;
     padding: 2rem;
@@ -42,7 +42,7 @@
   }
   
   .modal-btn:hover {
-    background-color: pink;
+    background-color:  #D8F2B8;
   }
   
   .close {

@@ -1,0 +1,12 @@
+.Home-btn {
+    border-radius: 40px;
+    padding: 1rem 2rem;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .Home-btn:hover {
+    background-color:  #D8F2B8;
+  }
