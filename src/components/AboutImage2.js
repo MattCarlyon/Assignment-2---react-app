@@ -10,7 +10,7 @@ const AboutPicture2 = () => {
                 flexDirection: "column",
             }}
         >
-            <img src={AboutPic2} alt="Computer Desk" height={600} wodth={450} />
+            <img src={AboutPic2} alt="Computer Desk" height={600} width={900} />
         </div>
     )
 }

@@ -15,7 +15,6 @@ function App() {
         <Header />
       </div>
       <div className="container">
-        <HomePicture />
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/About" exact element={<About />}/>
