@@ -2,6 +2,7 @@
 import {useState} from "react";
 import "./Modal.css";
 import Modal from "./Modal";
+import ContactForm from "./ContactForm";
 
 
 // const Contact = () => {
@@ -21,6 +22,9 @@ function Contact() {
 
     return (
         <div className="container">
+            <div className>
+                <ContactForm />
+            </div>
             {status && (
                 <Modal close={() => setStatus(false)}>
                     <div className="container">
@@ -28,7 +32,7 @@ function Contact() {
                     </div>
                 </Modal>
             )}
-            <button className="modal-btn" onClick={() => setStatus(true)}>Click me!</button>
+            <button className="modal-btn" onClick={() => setStatus(true)}>Modal Button!</button>
         </div>
     )
 };

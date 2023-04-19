@@ -1,0 +1,32 @@
+.mb-3 { 
+    border-radius: 40px;
+    padding: 1rem 2rem;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.Submit-btn {
+    border-radius: 40px;
+    padding: 1rem 2rem;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.Submit-btn:hover {
+    background-color:  #D8F2B8;
+  }
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
