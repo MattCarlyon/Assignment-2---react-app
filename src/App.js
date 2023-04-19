@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from "./components/Footer";
 //import HomePicture from './components/HomeImage';
 
 
@@ -20,6 +21,9 @@ function App() {
           <Route path="/About" exact element={<About />}/>
           <Route path="/Contact" exact element={<Contact />}/>
         </Routes>
+      </div>
+      <div>
+        <Footer />
       </div>
     </BrowserRouter>
   );

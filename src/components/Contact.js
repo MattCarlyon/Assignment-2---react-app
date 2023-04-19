@@ -3,6 +3,7 @@ import {useState} from "react";
 import "./Modal.css";
 import Modal from "./Modal";
 import ContactForm from "./ContactForm";
+import ContactPicture from "./ContactImage";
 
 
 // const Contact = () => {
@@ -33,6 +34,7 @@ function Contact() {
                 </Modal>
             )}
             <button className="modal-btn" onClick={() => setStatus(true)}>Modal Button!</button>
+            <ContactPicture />
         </div>
     )
 };

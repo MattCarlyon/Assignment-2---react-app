@@ -1,0 +1,23 @@
+Footer {
+    width: 100vw;
+    height: 142px;
+    background-color: #000000;
+    margin-top: 0;
+    display: flex;
+  }
+  
+  .footerlink {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 35px;
+      letter-spacing: 0em;
+      text-align: center;
+      list-style-type: none;
+      color: #FFFFFF;
+      padding-left: 20px;
+    }
+    
+  .footerlink:hover {
+      color: #D8F2B8;
+    }
+
