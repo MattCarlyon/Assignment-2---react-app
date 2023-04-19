@@ -1,0 +1,22 @@
+
+
+.Home {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+h3 {
+    max-width: 900px;
+    margin-bottom: 40px;
+}

@@ -3,7 +3,7 @@ import HomePic from '../images/Home.png';
 const HomePicture = () => {
     return (
         <div
-            stlyer={{
+            styler={{
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
