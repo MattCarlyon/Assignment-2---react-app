@@ -6,7 +6,8 @@ const Footer = () => {
         <header className="Footer">
             <nav>
                 <ul>
-                    <Link className="footerlink" to="/">Matthew Carlyon</Link>
+                    <Link className="footerlink" to="/Contact">Tel:012345678</Link>
+                    <Link className="footerlink" to="/Contact">Email:email@email.com</Link>
                 </ul>
             </nav>
         </header>

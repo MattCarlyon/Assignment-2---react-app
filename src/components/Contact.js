@@ -34,7 +34,7 @@ function Contact() {
                 </Modal>
             )}
             <button className="modal-btn" onClick={() => setStatus(true)}>Modal Button!</button>
-            <ContactPicture />
+            <a href="https://github.com/MattCarlyon/Assignment-2---react-app"><ContactPicture></ContactPicture></a>
         </div>
     )
 };
