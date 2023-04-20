@@ -48,18 +48,18 @@ const ContactForm = () => {
     return (
         <form onSubmit={submitHandler} className="Form">
             <div className="mb-3">
-                <label htmlFor="name">Name:</label>
-                <input type="text" name="name" ref={nameRef} className="mb-3" />
+                <label htmlFor="name"></label>
+                <input type="text" name="name" ref={nameRef} placeholder="Name:" className="mb-3" />
                 
             </div>
             <div className="mb-3">
-                <label htmlFor="email">Email:</label>
-                <input type="text" name="email" ref={emailRef} className="mb-3"/>
+                <label htmlFor="email"></label>
+                <input type="text" name="email" ref={emailRef} placeholder="Email:" className="mb-3"/>
                 
             </div>
             <div className="mb-3">
-                <label htmlFor="message">Message:</label>
-                <input type="text" name="message" ref={messageRef} className="mb-3"/>
+                <label htmlFor="message"></label>
+                <input type="text" name="message" ref={messageRef} placeholder="Message:" className="mb-3"/>
             </div> 
             <div>
                 <input type="submit" value="submit" className="Submit-btn" />
