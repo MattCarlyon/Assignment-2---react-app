@@ -62,7 +62,7 @@ const ContactForm = () => {
                 <input type="text" name="message" ref={messageRef} placeholder="Message:" className="mb-3"/>
             </div> 
             <div>
-                <input type="submit" value="submit" className="Submit-btn" />
+                <input type="submit" value="Submit" className="Submit-btn" />
             </div>
         </form>
     );
